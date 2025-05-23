@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:background="#ff6750a4">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="#ff6750a4"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:gravity="center_vertical"
+            android:text="  Stay Safe | Stay Fierce"
+            android:textColor="#FEFDFF"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="0dp"
+        android:text="About Us"
+        android:textColor="@color/blue"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Welcome to 'SeQHer'  \uD83D\uDED0We are emphasizing protection and safety to empowering women by providing innovative safety ⛑️solutions that enhance their security. 🛡️Our mission is to create a world where every woman feels safe and confident in her daily life🤼‍♀️."
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/missionText"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="Our Mission is to leverage technologies quick,reliable and intelligent safety solutions to ensure that women can feel secure, confident and fearless in any situation. 🤼‍♀️ Our app acts as your personal safety companion."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/featuresText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="'SeQHer' app Key Features:\n🆘 Emergency SOS Button\n📍 Real-Time GPS Tracking\n🚨 Panic Alerts\n 👮🏻‍♂️Near-by Police stations\n⛑️ Safety Resources\n📷 Spy detector\n📻 Voice Recorder\n\nFor Any Enquiries, Contact Us through E-mail below:👇🏻"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/missionText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="Stay Safe. Stay Fierce. SeQHer is with You."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/contactButton"
+        android:layout_width="151dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/blue"
+        android:text="☎ Contact Us"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>

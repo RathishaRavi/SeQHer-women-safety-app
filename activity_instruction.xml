@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="72dp"
+                android:background="#ff6750a4"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="370dp"
+                android:layout_height="72dp"
+                android:background="#ff6750a4"
+                android:fontFamily="cursive"
+                android:gravity="center_vertical"
+                android:text="  Stay Safe | Stay Fierce"
+                android:textColor="#FEFDFF"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="119dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="\n Select your location to see safety steps."
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/locationRadioGroup"
+            android:layout_width="308dp"
+            android:layout_height="368dp"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/radio_Bathroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In a bathroom"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radio_Room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In a closed room"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radio_Public"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public place"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radio_Parking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parking lot"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radio_Balcony"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balcony"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radio_Street"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Street"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/radio_Vehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In a vehicle"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/safetyStepsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textSize="19sp"/>
+
+    </LinearLayout>
+</ScrollView>
